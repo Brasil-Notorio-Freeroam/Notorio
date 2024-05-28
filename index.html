@@ -7,7 +7,6 @@
     <title>BNF - MTA</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
     <style>
-        /* imagens aqui! */
         body {
             background-image: url('https://i.pinimg.com/originals/e7/6c/15/e76c15b73e2af7ea925a12262b77acb6.jpg');
             background-size: cover;
@@ -23,7 +22,8 @@
         }
         .logo-img {
             height: 50px;
-            width: auto; }
+            width: auto;
+        }
         .content {
             margin-top: 80px;
             color: white;
@@ -33,6 +33,22 @@
             width: 100%;
             height: 300px;
             margin-bottom: 30px;
+        }
+        @media (max-width: 768px) {
+            .image-placeholder {
+                height: 200px;
+            }
+            .image-placeholder iframe {
+                height: 200px;
+            }
+        }
+        @media (max-width: 576px) {
+            .image-placeholder {
+                height: 150px;
+            }
+            .image-placeholder iframe {
+                height: 150px;
+            }
         }
         footer {
             position: fixed;
